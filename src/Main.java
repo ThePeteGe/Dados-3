@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -12,6 +13,16 @@ public class Main {
         n2 = teclado.nextInt();
         suma = n1 + n2;
         System.out.println("La suma es: " + suma);
+
+        Random aleatorio = new Random();
+        int a,b,c ;
+        System.out.println("numero generado");
+        a=aleatorio.nextInt(51);
+        System.out.println("numero generado");
+        b=aleatorio.nextInt((30-5)+1)+5;
+        c= a + b ;
+        System.out.println("a + b = "+c);
+
 
 
     }
