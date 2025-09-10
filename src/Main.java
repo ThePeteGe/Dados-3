@@ -28,8 +28,6 @@ public class Main {
             System.out.println("Dado B gana");
         } else if (suma3>suma1 && suma3>suma2) {
             System.out.println("Dado C gana");
-        } else {
-            System.out.println("empate");
 
 
         }
