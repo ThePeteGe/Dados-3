@@ -17,6 +17,7 @@ public class Main {
         c=aleatorio.nextInt(6)+1;
         suma3+=c ;
             System.out.println("------------------------------");
+            System.out.println("round: " +i);
         System.out.println("DADO A : " +suma1);
         System.out.println("DADO B : " +suma2);
             System.out.println("DADO C : "+suma3);
